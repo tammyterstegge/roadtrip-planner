@@ -1,0 +1,15 @@
+ClientBin/
+temp/
+*.log
+
+# misc
+.DS_Store
+npm-debug.log
+
+#dependencies
+node_modules/
+
+.env
+
+# secrets
+appsettings.local.json

@@ -2,7 +2,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>Roadtrip Planner</div>
+        <h1 className="text-3xl font-bold underline">Roadtrip Planner</h1>
       </header>
     </div>
   );

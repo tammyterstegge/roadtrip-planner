@@ -1,3 +1,17 @@
 @tailwind base;
+
+@layer base {
+  nav {
+    @apply bg-emerald-900 text-white text-2xl py-2 px-24 flex relative;
+  }
+
+  nav ul {
+    @apply flex absolute right-24;
+  }
+
+  nav ul li {
+    @apply mx-8;
+  }
+}
 @tailwind components;
 @tailwind utilities;

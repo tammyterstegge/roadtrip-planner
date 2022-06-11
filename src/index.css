@@ -21,7 +21,9 @@
 @tailwind components;
 
 @layer components {
-
+  .leaflet-container {
+    @apply w-full h-screen;
+  }
 }
 @tailwind utilities;
 

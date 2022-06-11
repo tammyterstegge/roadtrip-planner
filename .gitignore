@@ -12,5 +12,5 @@ node_modules/
 .env
 .vscode/
 
-# secrets
-appsettings.local.json
+*.local.json
+

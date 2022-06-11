@@ -14,7 +14,7 @@
   }
 
   nav ul li.active {
-    @apply bg-emerald-400;
+    @apply border rounded-lg px-1;
   }
 
 }
@@ -22,7 +22,7 @@
 
 @layer components {
   .leaflet-container {
-    @apply w-full h-screen;
+    @apply w-screen h-screen;
   }
 }
 @tailwind utilities;

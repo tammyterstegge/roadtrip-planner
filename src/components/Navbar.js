@@ -1,9 +1,21 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import camper from "./camper.png";
 
 function Navbar() {
   return (
     <nav>
-      <Link to="/">Roadtrip Planner</Link>
+      <Link to="/">
+        <div className="flex space-x-4">
+          <img
+            src={camper}
+            alt="camper"
+            width="40"
+            height="40"
+            about='<a href="https://www.flaticon.com/free-icons/caravan" title="caravan icons">Caravan icons created by Freepik - Flaticon</a>'
+          />
+          <div>Roadtrip Planner</div>
+        </div>
+      </Link>
       <ul>
         <li>
           <CustomLink to="/map">Map</CustomLink>

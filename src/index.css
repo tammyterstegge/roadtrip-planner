@@ -17,12 +17,24 @@
     @apply border rounded-lg px-1;
   }
 
+  select {
+    @apply mx-2 bg-white border border-emerald-900;
+  }
+
+  input {
+    @apply mx-2 bg-white border border-emerald-900;
+  }
+
 }
 @tailwind components;
 
 @layer components {
   .leaflet-container {
     @apply w-screen h-screen;
+  }
+
+  .submit {
+    @apply bg-emerald-900 text-white font-bold rounded-lg p-1;
   }
 }
 @tailwind utilities;
